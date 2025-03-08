@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.2.1 (Linux)"/>
+	<meta name="created" content="2025-03-08T00:57:58.811625241"/>
+	<meta name="changed" content="2025-03-08T02:17:56.352175101"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		h1 { margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "DejaVu Sans", sans-serif; font-size: 18pt; font-weight: bold }
+		h1.cjk { font-family: "WenQuanYi Micro Hei"; font-size: 18pt; font-weight: bold }
+		h1.ctl { font-family: "FreeSans"; font-size: 18pt; font-weight: bold }
+		pre { background: transparent }
+		pre.western { font-family: "DejaVu Sans Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "WenQuanYi Micro Hei Mono", monospace; font-size: 10pt }
+		pre.ctl { font-family: "DejaVu Sans Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<font face="DejaVu Sans, sans-serif"><font size="6" style="font-size: 28pt"><b><font color="#2a6099">Python</font>
+For Absolute Beginners</b></font></font></p>
+<p align="center" style="line-height: 100%; margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<font face="DejaVu Sans, sans-serif"><font size="4" style="font-size: 14pt">Created
+By <font color="#000000">Shivansh Shrivastava</font>.</font></font></p>
+<h1 class="western" style="page-break-before: always">Introduction</h1>
+<p><br/>
+<br/>
+
+</p>
+<ul>
+	<li><p>Python is the scripting language created in <i><span style="font-weight: normal">C</span></i>.</p></li>
+	<li><p>Its easy to use compared to other programming languages like
+	<i><span style="font-weight: normal">Java</span></i>, <i><span style="font-weight: normal">C</span></i>,
+	<i><span style="font-weight: normal">C++</span></i> and <i><span style="font-weight: normal">Golang</span></i>.</p></li>
+	<li><p>It has a rather extensive standard library which includes
+	packages like <i><span style="font-weight: normal">urllib</span></i>
+	(library to make requests on web), <i><span style="font-weight: normal">argparse</span></i>
+	(my favourite, is used to parse command line arguments).</p></li>
+	<li><p>It has a lot, I mean a lot of creative external packages like
+	(<i><span style="font-weight: normal">colorama</span></i>,
+	<i><span style="font-weight: normal">requesets</span></i>, <i><span style="font-weight: normal">pyside2</span></i>,
+	<i><span style="font-weight: normal">numpy</span></i>, <i><span style="font-weight: normal">matplotlib</span></i>,
+	<i><span style="font-weight: normal">astropy</span></i>, etc.) just
+	a names of few!</p></li>
+</ul>
+<h1 class="western" style="page-break-before: always">Writing our
+first program in python</h1>
+<p><br/>
+<br/>
+
+</p>
+<ol>
+	<li><p>Install text editor for your platform (like <i>notepad++</i>,
+	<i>vscode, sublime text, geany, etc.</i><span style="font-style: normal">)</span></p></li>
+	<li><p>Install python from python’s website or some package
+	manager for your platform.</p></li>
+	<li><p>Create folder named <i>python-tutorial.</i></p></li>
+	<li><p style="font-style: normal">Into that folder create file named
+	<i>hello.py.</i></p></li>
+	<li><p style="font-style: normal">Open file <i>hello.py </i>in in
+	favourate text editor.</p></li>
+	<li><p>Type <i>print</i><i>(</i><i>“Hello World!”</i><i>)</i><i>.</i></p></li>
+	<li><p style="font-style: normal">Change directory to
+	<i>python-tutorial </i>in terminal or command line.</p></li>
+	<li><p style="font-style: normal">Type <i>python3 hello.py </i>in
+	terminal or command line.</p></li>
+	<li><p style="font-style: normal">It should show text <i>Hello
+	World!</i>.</p></li>
+</ol>
+<h1 class="western" style="page-break-before: always">Variables</h1>
+<p><br/>
+<br/>
+
+</p>
+<p>Variables are the special type of containers that store some kind
+of a value, example:</p>
+<p><br/>
+<br/>
+
+</p>
+<pre class="western">integer_var = 5
+character_var = ‘a’
+boolean_var_one = True
+boolean_var_two = False
+string_var = “Hello World!!”
+formated_string_var = f“Number: {integer_var}”
+
+</pre><p>
+As you can there are multiple types of variable that can be declared
+and used, types are (integer, boolean, character, string, formated
+string).</p>
+<p><br/>
+<br/>
+
+</p>
+<p>You can use variables in your code like this:</p>
+<p><br/>
+<br/>
+
+</p>
+<pre class="western">print(“String: ”, string_var)
+print(“Integer: “, integer_var)
+print(“Character: “, character_var)
+print(“Boolean True: “, boolean_var_one)
+print(“Boolean False: “, boolean_var_two)
+print(“Formated string: ”, formated_string_var)
+
+</pre><p>
+You can re-declare the variables like this:</p>
+<p><br/>
+<br/>
+
+</p>
+<pre class="western">integer_var = 20
+character_var = ‘b’
+boolean_var_two = True
+boolean_var_one = False
+string_var = “Shivansh!”
+formated_string_var = “Hello {string_var}”
+</pre><p>
+<br/>
+<br/>
+
+</p>
+<p>You can new variable by using existing variable like this:</p>
+<p><br/>
+<br/>
+
+</p>
+<pre class="western">my_age = integer_var
+my_name = string_var
+world_sucks = boolean_var_two
+</pre><p>
+<br/>
+<br/>
+
+</p>
+<h1 class="western">Project 1</h1>
+<p><br/>
+<br/>
+
+</p>
+<ul>
+	<li><p>Create file <i>variables.py </i><span style="font-style: normal">in
+	your project folder.</span></p></li>
+	<li><p style="font-style: normal">Create variables like this
+	(replace variable values as you want):</p>
+	<pre class="western">
+integer_var = 20
+string_var_one = “Shivansh”
+string_var_two = “Shrivastava”</pre></li>
+</ul>
+<pre class="western">
+</pre>
+<ul>
+	<li><p>Declare more variables with names of existing variables:</p>
+	<pre class="western">
+my_age = integer_var
+my_name = string_var_one
+my_surname = string_var_two
+my_full_name = f”{my_name} {my_surname}”</pre></li>
+</ul>
+<pre class="western">
+</pre>
+<ul>
+	<li><p>Use <i>print</i><span style="font-style: normal"> function to
+	show them in the terminal or command line:</span></p>
+	<pre class="western">
+print(“My age: “, my_age)
+print(“My name: “, my_name)</pre></li>
+</ul>
+<pre class="western">
+</pre>
+</body>
+</html>

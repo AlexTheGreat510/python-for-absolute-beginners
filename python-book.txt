@@ -1,0 +1,84 @@
+﻿Python For Absolute Beginners
+Created By Shivansh Shrivastava.
+Introduction
+
+    • Python is the scripting language created in C.
+    • Its easy to use compared to other programming languages like Java, C, C++ and Golang.
+    • It has a rather extensive standard library which includes packages like urllib (library to make requests on web), argparse (my favourite, is used to parse command line arguments).
+    • It has a lot, I mean a lot of creative external packages like (colorama, requesets, pyside2, numpy, matplotlib, astropy, etc.) just a names of few!
+Writing our first program in python
+
+    1. Install text editor for your platform (like notepad++, vscode, sublime text, geany, etc.)
+    2. Install python from python’s website or some package manager for your platform.
+    3. Create folder named python-tutorial.
+    4. Into that folder create file named hello.py.
+    5. Open file hello.py in in favourate text editor.
+    6. Type print(“Hello World!”).
+    7. Change directory to python-tutorial in terminal or command line.
+    8. Type python3 hello.py in terminal or command line.
+    9. It should show text Hello World!.
+Variables
+
+Variables are the special type of containers that store some kind of a value, example:
+
+integer_var = 5
+character_var = ‘a’
+boolean_var_one = True
+boolean_var_two = False
+string_var = “Hello World!!”
+formated_string_var = f“Number: {integer_var}”
+
+
+As you can there are multiple types of variable that can be declared and used, types are (integer, boolean, character, string, formated string).
+
+You can use variables in your code like this:
+
+print(“String: ”, string_var)
+print(“Integer: “, integer_var)
+print(“Character: “, character_var)
+print(“Boolean True: “, boolean_var_one)
+print(“Boolean False: “, boolean_var_two)
+print(“Formated string: ”, formated_string_var)
+
+
+You can re-declare the variables like this:
+
+integer_var = 20
+character_var = ‘b’
+boolean_var_two = True
+boolean_var_one = False
+string_var = “Shivansh!”
+formated_string_var = “Hello {string_var}”
+
+
+You can new variable by using existing variable like this:
+
+my_age = integer_var
+my_name = string_var
+world_sucks = boolean_var_two
+
+
+Project 1
+
+    • Create file variables.py in your project folder.
+    • Create variables like this (replace variable values as you want):
+      
+      integer_var = 20
+      string_var_one = “Shivansh”
+      string_var_two = “Shrivastava”
+
+
+    • Declare more variables with names of existing variables:
+      
+      my_age = integer_var
+      my_name = string_var_one
+      my_surname = string_var_two
+      my_full_name = f”{my_name} {my_surname}”
+
+
+    • Use print function to show them in the terminal or command line:
+      
+      print(“My age: “, my_age)
+      print(“My name: “, my_name)
+
+
